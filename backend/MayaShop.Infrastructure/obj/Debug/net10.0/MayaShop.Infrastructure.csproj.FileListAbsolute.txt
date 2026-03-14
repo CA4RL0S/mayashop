@@ -1,0 +1,17 @@
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/bin/Debug/net10.0/MayaShop.Infrastructure.deps.json
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/bin/Debug/net10.0/MayaShop.Infrastructure.runtimeconfig.json
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/bin/Debug/net10.0/MayaShop.Infrastructure.dll
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/bin/Debug/net10.0/MayaShop.Infrastructure.pdb
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/bin/Debug/net10.0/MayaShop.Core.dll
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/bin/Debug/net10.0/MayaShop.Core.pdb
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/obj/Debug/net10.0/MayaShop.Infrastructure.csproj.AssemblyReference.cache
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/obj/Debug/net10.0/MayaShop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/obj/Debug/net10.0/MayaShop.Infrastructure.AssemblyInfoInputs.cache
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/obj/Debug/net10.0/MayaShop.Infrastructure.AssemblyInfo.cs
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/obj/Debug/net10.0/MayaShop.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/obj/Debug/net10.0/MayaShop.7D18D0D1.Up2Date
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/obj/Debug/net10.0/MayaShop.Infrastructure.dll
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/obj/Debug/net10.0/refint/MayaShop.Infrastructure.dll
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/obj/Debug/net10.0/MayaShop.Infrastructure.pdb
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/obj/Debug/net10.0/MayaShop.Infrastructure.genruntimeconfig.cache
+/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/obj/Debug/net10.0/ref/MayaShop.Infrastructure.dll

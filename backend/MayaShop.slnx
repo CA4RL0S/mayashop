@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MayaShop.Api/MayaShop.Api.csproj" />
+  <Project Path="MayaShop.Core/MayaShop.Core.csproj" />
+  <Project Path="MayaShop.Infrastructure/MayaShop.Infrastructure.csproj" />
+</Solution>

@@ -99,10 +99,50 @@ public class OrderItemConfiguration : IEntityTypeConfiguration<OrderItem>
             .HasForeignKey(oi => oi.OrderId)
             .OnDelete(DeleteBehavior.Cascade);
 
-        // Relación: OrderItem referencia un Product (restrict delete)
         builder.HasOne(oi => oi.Product)
             .WithMany(p => p.OrderItems)
             .HasForeignKey(oi => oi.ProductId)
+            .OnDelete(DeleteBehavior.Restrict);
+    }
+}
+
+// Configuración Fluent API para la tabla carts.
+public class CartConfiguration : IEntityTypeConfiguration<Cart>
+{
+    public void Configure(EntityTypeBuilder<Cart> builder)
+    {
+        builder.ToTable("carts");
+        builder.HasKey(c => c.Id);
+        builder.Property(c => c.Id).HasColumnName("id");
+        builder.Property(c => c.UserId).HasColumnName("user_id");
+
+        builder.HasOne(c => c.User)
+            .WithOne(u => u.Cart)
+            .HasForeignKey<Cart>(c => c.UserId)
+            .OnDelete(DeleteBehavior.Cascade);
+    }
+}
+
+// Configuración Fluent API para la tabla cart_items.
+public class CartItemConfiguration : IEntityTypeConfiguration<CartItem>
+{
+    public void Configure(EntityTypeBuilder<CartItem> builder)
+    {
+        builder.ToTable("cart_items");
+        builder.HasKey(ci => ci.Id);
+        builder.Property(ci => ci.Id).HasColumnName("id");
+        builder.Property(ci => ci.CartId).HasColumnName("cart_id");
+        builder.Property(ci => ci.ProductId).HasColumnName("product_id");
+        builder.Property(ci => ci.Quantity).HasColumnName("quantity").IsRequired().HasDefaultValue(1);
+
+        builder.HasOne(ci => ci.Cart)
+            .WithMany(c => c.Items)
+            .HasForeignKey(ci => ci.CartId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        builder.HasOne(ci => ci.Product)
+            .WithMany()
+            .HasForeignKey(ci => ci.ProductId)
             .OnDelete(DeleteBehavior.Restrict);
     }
 }

@@ -2671,11 +2671,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/MayaShop.Infrastructure.csproj",
+      "projectUniqueName": "/Users/carlos/Desktop/mayashop/backend/MayaShop.Infrastructure/MayaShop.Infrastructure.csproj",
       "projectName": "MayaShop.Infrastructure",
-      "projectPath": "/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/MayaShop.Infrastructure.csproj",
+      "projectPath": "/Users/carlos/Desktop/mayashop/backend/MayaShop.Infrastructure/MayaShop.Infrastructure.csproj",
       "packagesPath": "/Users/carlos/.nuget/packages/",
-      "outputPath": "/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Infrastructure/obj/",
+      "outputPath": "/Users/carlos/Desktop/mayashop/backend/MayaShop.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/carlos/.nuget/NuGet/NuGet.Config"
@@ -2691,8 +2691,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Core/MayaShop.Core.csproj": {
-              "projectPath": "/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Core/MayaShop.Core.csproj"
+            "/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/MayaShop.Core.csproj": {
+              "projectPath": "/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/MayaShop.Core.csproj"
             }
           }
         }

@@ -19,4 +19,5 @@ public class User
 
     // Navegación: pedidos del usuario
     public ICollection<Order> Orders { get; set; } = new List<Order>();
+    public Cart? Cart { get; set; }
 }

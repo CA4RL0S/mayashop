@@ -9,3 +9,15 @@
 /Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Core/obj/Debug/net10.0/refint/MayaShop.Core.dll
 /Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Core/obj/Debug/net10.0/MayaShop.Core.pdb
 /Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Core/obj/Debug/net10.0/ref/MayaShop.Core.dll
+/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/bin/Debug/net10.0/MayaShop.Core.deps.json
+/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/bin/Debug/net10.0/MayaShop.Core.dll
+/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/bin/Debug/net10.0/MayaShop.Core.pdb
+/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/obj/Debug/net10.0/MayaShop.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/obj/Debug/net10.0/MayaShop.Core.AssemblyInfoInputs.cache
+/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/obj/Debug/net10.0/MayaShop.Core.AssemblyInfo.cs
+/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/obj/Debug/net10.0/MayaShop.Core.csproj.CoreCompileInputs.cache
+/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/obj/Debug/net10.0/MayaShop.Core.sourcelink.json
+/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/obj/Debug/net10.0/MayaShop.Core.dll
+/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/obj/Debug/net10.0/refint/MayaShop.Core.dll
+/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/obj/Debug/net10.0/MayaShop.Core.pdb
+/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/obj/Debug/net10.0/ref/MayaShop.Core.dll

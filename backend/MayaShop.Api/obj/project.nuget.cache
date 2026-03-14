@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BDZJ+5kwELQ=",
+  "dgSpecHash": "vyL/NiPw/RI=",
   "success": true,
-  "projectFilePath": "/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Api/MayaShop.Api.csproj",
+  "projectFilePath": "/Users/carlos/Desktop/mayashop/backend/MayaShop.Api/MayaShop.Api.csproj",
   "expectedPackageFiles": [
     "/Users/carlos/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/carlos/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

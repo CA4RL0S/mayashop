@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Core/MayaShop.Core.csproj": {}
+    "/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/MayaShop.Core.csproj": {}
   },
   "projects": {
-    "/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Core/MayaShop.Core.csproj": {
+    "/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/MayaShop.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Core/MayaShop.Core.csproj",
+        "projectUniqueName": "/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/MayaShop.Core.csproj",
         "projectName": "MayaShop.Core",
-        "projectPath": "/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Core/MayaShop.Core.csproj",
+        "projectPath": "/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/MayaShop.Core.csproj",
         "packagesPath": "/Users/carlos/.nuget/packages/",
-        "outputPath": "/Users/carlos/.gemini/antigravity/scratch/mayashop/backend/MayaShop.Core/obj/",
+        "outputPath": "/Users/carlos/Desktop/mayashop/backend/MayaShop.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/carlos/.nuget/NuGet/NuGet.Config"

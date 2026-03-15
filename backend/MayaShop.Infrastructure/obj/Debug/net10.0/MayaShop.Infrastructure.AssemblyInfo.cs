@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MayaShop.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41aac81e3ae0f6329be4b33577a8249607d01f20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa48163903736471522a697fcea6e90ddcca3e4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MayaShop.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MayaShop.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

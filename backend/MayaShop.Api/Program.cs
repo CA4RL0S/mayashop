@@ -1,5 +1,4 @@
-using MayaShop.Core.Interfaces.Repositories;
-using MayaShop.Core.Interfaces.Services;
+using MayaShop.Core.Interfaces;
 using MayaShop.Core.Services;
 using MayaShop.Infrastructure.Data;
 using MayaShop.Infrastructure.Repositories;
@@ -17,15 +16,13 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
 
-// Repositorios (patrón Repository)
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
-builder.Services.AddScoped<IOrderRepository, OrderRepository>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
+// Repositorios Genéricos
+builder.Services.AddScoped(typeof(MayaShop.Core.Interfaces.IRepository<>), typeof(MayaShop.Infrastructure.Repositories.Repository<>));
 
 // Servicios (capa de negocio)
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
-builder.Services.AddScoped<IUserService, UserService>();
 
 // CORS para el frontend (React + Vite en localhost:5173 y Vercel en producción)
 var allowedOrigins = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>()

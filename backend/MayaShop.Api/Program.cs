@@ -1,3 +1,4 @@
+using MayaShop.Api.Middlewares;
 using MayaShop.Core.Interfaces;
 using MayaShop.Core.Services;
 using MayaShop.Infrastructure.Data;
@@ -23,6 +24,7 @@ builder.Services.AddScoped(typeof(MayaShop.Core.Interfaces.IRepository<>), typeo
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 // CORS para el frontend (React + Vite en localhost:5173 y Vercel en producción)
 var allowedOrigins = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>()
@@ -46,6 +48,8 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 var app = builder.Build();
+
+app.UseMiddleware<ErrorHandlingMiddleware>();
 
 // Middleware pipeline
 if (app.Environment.IsDevelopment())

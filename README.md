@@ -91,4 +91,32 @@ Todos estos endpoints ya pueden ser invocados interceptando previamente un token
 
 ---
 
-*Proyecto en proceso de construcción por fases. Fase actual: **Módulo 3 superado**.*
+## 📅 Cronograma de Desarrollo (Próximos Módulos)
+
+El desarrollo de MayaShop está estructurado en 7 módulos. Actualmente, los módulos 1 al 3 (Backend) están al 100%. A continuación, el plan de trabajo para el Frontend y Despliegue:
+
+### ⏳ Módulo 4: UI del Frontend (React + Vite)
+- Inicializar proyecto React + Vite (TypeScript).
+- Configuración de React Router DOM y Context API (Estado global).
+- Instalación de **MSAL.js** para integrar el Login directo con Microsoft Entra ID.
+- Construcción del Navbar, Footer y Layout Base de la tienda.
+
+### ⏳ Módulo 5: Pantallas del Cliente (Customer)
+- Pantalla Home: Catálogo de productos con filtros visuales.
+- Componentes de Producto y Carritos flotantes.
+- Proceso de Checkout y visualización del Historial de Órdenes pasadas.
+
+### ⏳ Módulo 6: Dashboard de Administrador (Admin)
+- Diseño de Layout protegido, accesible únicamente si el token de Azure y nuestra BD indican rol de Administrador.
+- Dashboard interactivo con métricas clave (ventas del día, ingresos).
+- Tablas de CRUD interactivo para dar de alta o modificar inventario y cambiar los estados de las órdenes de los clientes.
+
+### ⏳ Módulo 7: Despliegue Final (Deploy)
+- Configuración de CORS apuntando a los servidores en la nube.
+- Despliegue del Backend C# y la BD PostgreSQL a un servicio cloud como **Render**.
+- Despliegue del Frontend React hospedado en alta disponibilidad usando **Vercel**.
+- Pruebas Punto a Punto (E2E) finales.
+
+---
+
+*Proyecto en proceso de construcción por fases. Fase actual: **Iniciando Módulo 4**.*
